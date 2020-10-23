@@ -33,7 +33,40 @@ El procesador es Bi-Endian, quiere decir que es configurable entre Big Endian y
 Little Endian. Aunque nuestro sistema operativo nos lo limita a Little Endian.
 La dirección de un dato es la de su byte menos significativo. La memoria siempre se
 referencia a nivel de byte, es decir si decimos la posición N nos estamos refiriendo
-al byte N-ésimo, aunque se escriba media palabra, una palabra,...
+al byte N-ésimo, aunque se escriba media palabra, una palabra.
+
+![](https://github.com/FernandoOliva18212205/2.1-Lectura-y-ejercicios-de-ARM32-del-ebook-OpenSource/blob/main/Imagenes/Imagen1Memoria.PNG)
+
+![](https://images.cooltext.com/5474860.png)
+
+El ensamblador es un lenguaje de bajo nivel que permite un control directo de
+la CPU y todos los elementos asociados. Cada línea de un programa ensamblador
+consta de una instrucción del procesador y la posición que ocupan los datos de esa
+instrucción.
+
+Desarrollar programas en lenguaje ensamblador es un proceso laborioso. El procedimiento es similar al de cualquier lenguaje compilado. Un conjunto de instrucciones
+y/o datos forman un módulo fuente. Este módulo es la entrada del compilador, que
+chequea la sintaxis y lo traduce a código máquina formando un módulo objeto. Finalmente, un enlazador (montador ó linker) traduce todas las referencias relativas a
+direcciones absolutas y termina generando el ejecutable.
+
+Generalmente, y dado que crear programas un poco extensos es laborioso, el
+ensamblador se utiliza como apoyo a otros lenguajes de alto nivel para 3 tipos de
+situaciones:
+* Operaciones que se repitan un número elevado de veces.
+* Cuando se requiera una gran velocidad de proceso.
+* Para utilización y aprovechamiento de dispositivos y recursos del sistema.
+
+![](https://images.cooltext.com/5474870.png)
+
+Los pasos habituales para hacer un programa (en cualquier lenguaje) son los
+siguientes: lo primero es escribir el programa en el lenguaje fuente mediante un editor de programas. El resultado es un fichero en un lenguaje que puede entender el
+usuario, pero no la máquina. Para traducirlo a lenguaje máquina hay que utilizar
+un programa traductor. Éste genera un fichero con la traducción de dicho programa,
+pero todavía no es un programa ejecutable. Un fichero ejecutable contiene el programa traducido más una serie de códigos que debe tener todo programa que vaya a ser
+ejecutado en una máquina determinada. Entre estos códigos comunes se encuentran
+las librerías del lenguaje. El encargado de unir el código del programa con el código
+de estas librerías es un programa llamado montador (linker) que genera el programa
+ejecutable 
 
 
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
