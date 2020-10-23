@@ -1,6 +1,9 @@
 # 2.1-Lectura-y-ejercicios-de-ARM32-del-ebook-OpenSource
 Resumen.
 
+![](https://images.cooltext.com/5474871.png)
+
+
 ![](https://images.cooltext.com/5474803.png)
 
 ARM es una arquitectura RISC (Reduced Instruction Set Computer=Ordenador con Conjunto Reducido de Instrucciones) de 32 bits, salvo la versión del core ARMv8-A que es mixta 32/64 bits (bus de 32 bits con registros de 64 bits). Se trata de una arquitectura licenciable, quiere decir que la empresa desarrolladora ARM Holdings diseña la arquitectura, pero son otras compañías las que fabrican y venden los chips, llevándose ARM Holdings un pequeño porcentaje por la licencia.
@@ -67,6 +70,8 @@ ejecutado en una máquina determinada. Entre estos códigos comunes se encuentra
 las librerías del lenguaje. El encargado de unir el código del programa con el código
 de estas librerías es un programa llamado montador (linker) que genera el programa
 ejecutable 
+
+![](https://github.com/FernandoOliva18212205/2.1-Lectura-y-ejercicios-de-ARM32-del-ebook-OpenSource/blob/main/Imagenes/Imagen2Entorno.PNG)
 
 
 <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
